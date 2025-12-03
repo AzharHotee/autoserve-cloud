@@ -28,7 +28,7 @@ jobs:
           pip install --no-cache-dir -r requirements.txt
 
       - name: Run unit tests
-	env:
+        env:
           PYTHONPATH: .
         run: |
           pytest
